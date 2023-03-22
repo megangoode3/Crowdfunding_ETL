@@ -108,14 +108,18 @@ Support and Resources
 Your instructional team will provide support during classes and office hours. You will also have access to learning assistants and tutors to help you with topics as needed. Make sure to take advantage of these resources as you collaborate with your partner on this project.
 
 Requirements
+
 A Category DataFrame is Created (15 points)
+
     The DataFrame contains a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories (5 points)
     The DataFrame has a "category" column that contains only the category titles (5 points)
     The category DataFrame is exported as category.csv (5 points)
+
 A Subcategory DataFrame is Created (15 points)
     The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories (5 points)
     The DataFrame contains a "subcategory" column that contains only the subcategory titles (5 points)
     The subcategory DataFrame is exported as category.csv (5 points)
+
 A Campaign DataFrame is Created (30 points)
     The DataFrame has the following columns: (25 points)
         A "cf_id" column
@@ -133,6 +137,7 @@ A Campaign DataFrame is Created (30 points)
         A "category_id" column that contains the unique identification numbers matching those in the "category_id" column of the category DataFrame
         A "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
     The campaign DataFrame is exported as campaign.csv (5 points)
+
 A Contacts DataFrame is Created (15 points)
     The DataFrame has the following columns: (10 points)
         A "contact_id" column
@@ -140,6 +145,7 @@ A Contacts DataFrame is Created (15 points)
         A "last_name" column
         An "email" column
     The contacts DataFrame is exported as contacts.csv (5 points)
+
 A Crowdfunding Database is Created (25 points)
     A database schema labeled, crowdfunding_db_schema.sql is created (5 points)
     A crowdfunding_db is created using the crowdfunding_db_schema.sql file (5 points)
